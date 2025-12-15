@@ -3,11 +3,11 @@
     padding: 0;
 }
 body{
-    background-color: brown;
+    background-color: #ecf0f1;
 }
 .mainMenue{
     display:flex;
-    background-color: blue;
+    background-color: rgb(32, 32, 33);
 }
 
 .mainMenue li{
@@ -16,14 +16,30 @@ body{
 .mainMenue li a{
     text-decoration: none;
     display: block;
-    padding: 10px 10px;
+    padding: 15px 15px;
     color:white;
     font-family: sans-serif;
     font-weight: bold;
+    transition: 0.5s;
+}
+.mainMenue li a:hover{
+    background: orange;
+    color:white;
+    border-radius: 6px;
 }
 .logo{
     margin-right: auto;
 }
  img{
-    width: 100%;
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+footer{
+    background-color: #2c3e50;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 50px;
 }
