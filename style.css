@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: brown;
+}
+.mainMenue{
+    display:flex;
+    background-color: blue;
+}
+
+.mainMenue li{
+    list-style: none;
+}
+.mainMenue li a{
+    text-decoration: none;
+    display: block;
+    padding: 10px 10px;
+    color:white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.logo{
+    margin-right: auto;
+}
